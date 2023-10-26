@@ -1,0 +1,132 @@
+/******************************************************/
+/*         hoja de estilo de flanhuevo.html           */
+/*         autora: Antonio Cordero Molina             */
+/*         version: 1.0                               */
+/*         fecha: octubre de 2023                     */
+/*         comentario: trabajo de lenguajes de marcas */
+/******************************************************/
+
+/*************Gama de colores utilizados:**************/
+/*
+    body: #a38348;
+    wrapper: #f3e790;
+    títulos: #ae421e;
+*/
+
+
+/********************* Fuentes ***********************/
+@font-face {        
+    font-family: titulos;
+    src: url(../font/Belladia.otf);
+}
+@font-face {        
+    font-family: texto;
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+@font-face {        
+    font-family: quote;
+    src: url(../font/Poppins-Italic.ttf);
+}
+
+
+/********************** Body ************************/
+
+* {
+    box-sizing: border-box;
+  }
+
+    body {
+        background-image: url(../img/tile_background.png) ;
+        background-size: 80%;
+        margin:0;
+        padding:0;
+        font-family: texto;
+        font-size: 1.1em;
+    }
+      
+    #wrapper {
+        width:80%;
+        margin: auto;
+        background-color: #f3e790;
+        padding: 5%;
+    }
+
+    h1, h2 {
+        text-align: center;
+        font-family: titulos;
+        color: #ae421e;
+        
+    }
+    
+    h1 {
+        background-color: #b99653;
+        word-spacing: 10px;
+        letter-spacing: 5px;
+        border-radius: 30px;
+        padding-top: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    h2 {
+        border-bottom: 1px solid #ae421e;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        padding: 1%;
+    }
+
+    blockquote{
+        font-family: quote;
+        font-size: 0.7em;
+        text-align: center;
+        border-style: solid;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        padding: 10px;
+        border-radius: 40px;
+        border-color: #a38348;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50%;
+        width: 60%;
+        border-radius: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    ul {
+        list-style-image: url(../img/Iconoflan.png);
+    }
+
+    /********** Información Nutricional **************/
+    #infonutricional {
+        width:70%;
+        margin: auto;
+        background-color: #f3e790;
+        padding: 5%;
+        box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 5%;
+    }
+
+    dt {
+        font-weight: bold;
+        font-variant: small-caps;
+        color: #ae421e;
+        text-decoration-line: underline; 
+    }
+
+    dd {
+        text-align: right; 
+    }
+
+    #copyrights {
+        text-align: center;
+        font-size: 0.6em;
+        /*background-color: #ae421e;*/
+        
+    }
