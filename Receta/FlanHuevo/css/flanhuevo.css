@@ -103,7 +103,7 @@
         list-style-image: url(../img/Iconoflan.png);
     }
 
-    /********** Información Nutricional **************/
+/********** Información Nutricional **************/
     #infonutricional {
         width:70%;
         margin: auto;
@@ -129,4 +129,20 @@
         font-size: 0.6em;
         /*background-color: #ae421e;*/
         
+    }
+
+/******************* RESPONSIVIDAD ***********************/
+
+    /* Wrapper 100% en móviles */
+
+    @media only screen and (width<700px) {
+
+        #wrapper {
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+        }
+
     }
