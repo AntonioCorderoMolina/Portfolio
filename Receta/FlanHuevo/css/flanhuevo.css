@@ -48,6 +48,8 @@
     #wrapper {
         width:80%;
         margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
         background-color: #f3e790;
         padding: 5%;
     }
@@ -66,6 +68,10 @@
         border-radius: 30px;
         padding-top: 15px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-shadow: 1px 1px 0px rgb(0, 0, 0),
+                    -1px 1px 0px rgb(0, 0, 0),
+                    1px -1px 0px rgb(0, 0, 0),
+                    -1px -1px 0px #f3e790;
     }
 
     h2 {
@@ -81,6 +87,7 @@
         text-align: center;
         border-style: solid;
         display: block;
+        margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
         width: 60%;
@@ -124,10 +131,16 @@
         text-align: right; 
     }
 
-    #copyrights {
+/**************** Footer + Copydrights *******************/
+
+    #footer {
         text-align: center;
         font-size: 0.6em;
-        /*background-color: #ae421e;*/
+        background-image: url(../img/tile_background.png) ;
+        background-size: 105%;
+        padding: 15px;
+        margin: auto;
+        margin-top: 50px;
         
     }
 
@@ -139,10 +152,18 @@
 
         #wrapper {
             width: 100%;
+            margin: auto;
         }
 
         img {
             width: 100%;
         }
 
+        blockquote {
+            width: 100%;
+        }
+
+        #infonutricional{
+            width: 100%;
+        }
     }
