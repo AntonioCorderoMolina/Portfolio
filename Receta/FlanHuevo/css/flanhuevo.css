@@ -141,8 +141,14 @@
         padding: 15px;
         margin: auto;
         margin-top: 50px;
-        
+        opacity: 0.7;
+        position: relative;
+        top: 60px;
     }
+
+    #footer:hover {
+        opacity: 1.0;
+      }
 
 /******************* RESPONSIVIDAD ***********************/
 
@@ -166,4 +172,10 @@
         #infonutricional{
             width: 100%;
         }
+
+        #footer {
+            position: relative;
+            top: 25px;
+        }
+
     }
