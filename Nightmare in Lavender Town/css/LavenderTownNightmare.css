@@ -1,0 +1,133 @@
+/******************************************************/
+/*         hoja de NightmareBeforeChristmas.html      */
+/*         autora: Antonio Cordero Molina             */
+/*         version: 1.0                               */
+/*         fecha: noviembre de 2023                   */
+/*         comentario: trabajo de lenguajes de marcas */
+/******************************************************/
+
+/**************************** FONTS *******************************/
+
+@font-face {
+    font-family: text;
+    src: url(../fonts/PokemonSolidNormal-xyWR.ttf);
+}
+
+@font-face {
+    font-family: pixeltext;
+    src: url(../fonts/pixel_font.ttf);
+}
+
+/*************************** COLOURS ******************************/
+/*
+    body: #0000;
+    text: #5f3880;
+*/
+
+/************************** SCENARIO *****************************/
+
+body {
+    background-color: black;
+}
+
+#text {
+
+    font-family: text;
+    text-align: center;
+    margin-right: 1000px;
+    color: #5f3880;
+    font-size: 2.5em;
+    text-shadow: 3px 3px 0px rgb(0, 0, 0),
+                -3px 3px 0px rgb(0, 0, 0),
+                3px -3px 0px rgb(0, 0, 0),
+                -3px -3px 0px rgb(0, 0, 0);
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+
+.cautiontext {
+    font-family: pixeltext;
+    text-align: center;
+    margin-right: 1000px;
+    color: #000;
+}
+
+#scenario {
+    width: 1422px;
+    height: 800px;
+    background-image: url(../img/Lavender_Town_wallpaper_resize2.png);
+    margin: auto;
+    position: relative;
+}
+
+/************************* POSITIONS ****************************/
+
+#cave {
+    width: 60px;
+    height: 60px;
+    border: 5px solid blue;
+    position: absolute;
+    top: 210px;
+    left: 965px;
+}
+
+#pokecenter {
+    width: 150px;
+    height: 175px;
+    border: 5px solid blue;
+    position: absolute;
+    top: 85px;
+    left: 450px;
+}
+
+#house {
+    width: 170px;
+    height: 80px;
+    border: 5px solid blue;
+    position: absolute;
+    top: 355px;
+    left: 620px;
+}
+
+#mart {
+    width: 150px;
+    height: 175px;
+    border: 5px solid blue;
+    position: absolute;
+    top: 440px;
+    left: 985px;
+}
+
+/************************* ANIMATIONS ***************************/
+
+#ghost {
+    position: absolute;
+    /*width: 100x;
+    height: 100px;
+    left: 50px;*/
+    display: none;
+}
+
+#gastly {
+    position: absolute;
+    width: 200x;
+    height: 200px;
+    left: 50p
+    display none;
+}
+
+#haunter {
+    position: absolute;
+    width: 100x;
+    height: 100px;
+    left: 50px;
+    display: none;
+}
+
+#gengar {
+    position: absolute;
+    width: 100x;
+    height: 100px;
+    left: 50px;
+    display: none;
+}
