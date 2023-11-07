@@ -16,20 +16,27 @@
         <p id="text"> <br> Welcome to <br> Lavender Town</p>
         <p class="cautiontext">(beware of the ghosts)</p>
 
-        <div id="cave" onmouseover="show('ghost')" onmouseover="hide('ghost')">
+        <audio controls> 
+            <source src="./sounds/lavender_town_theme.mp3" type="audio/mp3">
+        </audio>
+
+        <div id="cave" onclick="show('ghost')" onclick="hide('ghost')">
         <img id="ghost" src="./img/Lavender_Town_ghost_resize.gif" alt="ghost_gif">    
         </div>
 
-
-        <div id="pokecenter" onmouseover="show('gastly')" onmouseover="hide('gastly')">
+        <div id="pokecenter" onmouseover="show('gastly');sound('gastly_cry')" onmouseout="hide('gastly');silence('gastly_cry')">
         <img id="gastly" src="./img/gastly.gif" alt="gastly_gif">
         </div>
 
-        <div id="house" onmouseover="show('haunter')" onmouseover="hide('haunter')">
+        <audio id="gastly_cry"> 
+            <source src="./sounds/gastly_cry.mp3" type="audio/mp3">
+        </audio>
+
+        <div id="house" onmouseover="show('haunter')" onmouseout="hide('haunter')">
         <img id="haunter" src="./img/haunter_gif.gif" alt="haunter_gif">    
         </div>
 
-        <div id="mart" onmouseover="show('gengar')" onmouseover="hide('gengar')">
+        <div id="mart" onmouseover="show('gengar')" onmouseout="hide('gengar')">
         <img id="gengar" src="./img/gengar_gif.gif" alt="gengar_gif">    
         </div>
 

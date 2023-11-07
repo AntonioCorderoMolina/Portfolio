@@ -112,22 +112,23 @@ body {
     position: absolute;
     width: 200x;
     height: 200px;
-    left: 50p
-    display none;
+    left: 50p;
+    visibility: hidden;
 }
 
 #haunter {
     position: absolute;
-    width: 100x;
-    height: 100px;
-    left: 50px;
-    display: none;
+    width: 110x;
+    height: 110px;
+    left: 100px;
+    top: -95px;
+    visibility: hidden;
 }
 
 #gengar {
     position: absolute;
     width: 100x;
     height: 100px;
-    left: 50px;
-    display: none;
+    left: 100px;
+    visibility: hidden;
 }
