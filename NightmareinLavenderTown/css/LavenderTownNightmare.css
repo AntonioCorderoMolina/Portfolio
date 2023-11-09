@@ -45,7 +45,7 @@ body {
     letter-spacing: 3px;
 }
 
-.cautiontext {
+.cautionText {
     font-family: pixeltext;
     color: #000;
     text-align: center;
@@ -62,7 +62,7 @@ body {
     position: relative;
 }
 
-/************************* POSITIONS ****************************/
+/************************* POSITIONS & TEXT ****************************/
 
 #cave {
     width: 60px;
@@ -98,6 +98,62 @@ body {
     position: absolute;
     top: 440px;
     left: 985px;
+}
+
+#cave.textPosition {
+    position: absolute;
+    font-family: pixeltext;
+    color: #000;
+    text-align:justify;
+    font-weight: 900;
+    font-size: 0.8em;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding-top: 60px;
+    margin-left: -60px;
+}
+
+#pokecenter.textPosition {
+    position: absolute;
+    font-family: pixeltext;
+    color: #000;
+    text-align:justify;
+    font-weight: 900;
+    font-size: 0.71em;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    padding-top: 175px;
+    margin-left: -20px;
+}
+
+#house.textPosition {
+    position: absolute;
+    font-family: pixeltext;
+    color: #000;
+    text-align:justify;
+    font-weight: 900;
+    font-size: 0.8em;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: -200px;
+}
+
+#mart.textPosition {
+    position: absolute;
+    font-family: pixeltext;
+    color: #000;
+    text-align:justify;
+    font-weight: 900;
+    font-size: 0.8em;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    margin-top: 180px;
+    margin-left: -200px;
 }
 
 /************************* ANIMATIONS ***************************/
@@ -136,9 +192,21 @@ body {
     visibility: hidden;
 }
 
-audio {
-    height: 30px;
-    width: 250px;
-    margin-left: 80px;
-    margin-top: 20px;
+/************************* AUDIO BUTTON **************************/
+
+.audioButton {
+    text-align: left;
+    padding-top: 22px;
+    padding-left: 55px;
+}
+
+#playButton {
+    height: 20px;
+    width: 20%;
+    border: 3px solid #000000;
+    border-radius: 20px; 
+}
+  
+#playButton::-webkit-media-controls-panel {
+    background:#5f3880;
 }
