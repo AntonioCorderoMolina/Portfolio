@@ -13,6 +13,8 @@
 
     <div id= "scenario">
 
+        <!-- Main scenario, text and sound effect -->
+
         <p id="text"> <br> Welcome to <br> Lavender Town</p>
         <p class="cautiontext">(beware of the ghosts)</p>
 
@@ -20,9 +22,17 @@
             <source src="./sounds/lavender_town_theme.mp3" type="audio/mp3">
         </audio>
 
-        <div id="cave" onclick="show('ghost')" onclick="hide('ghost')">
-        <img id="ghost" src="./img/Lavender_Town_ghost_resize.gif" alt="ghost_gif">    
+        <!-- Ghost appearance and sound effect -->
+
+        <div id="cave" onclick="show('ghost')" ondblclick="hide('ghost')">
+        <img id="ghost" src="./img/Lavender_Town_ghost_gif_resize3.gif" alt="ghost_gif">    
         </div>
+
+        <audio id="ghost_cry"> 
+            <source src="./sounds/Pokemon_Blue_Red_Pokemon_Tower.mp3" type="audio/mp3">
+        </audio>
+
+        <!-- Gastly appearance and sound effect -->
 
         <div id="pokecenter" onmouseover="show('gastly');sound('gastly_cry')" onmouseout="hide('gastly');silence('gastly_cry')">
         <img id="gastly" src="./img/gastly.gif" alt="gastly_gif">
@@ -32,13 +42,25 @@
             <source src="./sounds/gastly_cry.mp3" type="audio/mp3">
         </audio>
 
+        <!-- Haunter appearance and sound effect -->
+
         <div id="house" onmouseover="show('haunter')" onmouseout="hide('haunter')">
         <img id="haunter" src="./img/haunter_gif.gif" alt="haunter_gif">    
         </div>
 
+        <audio id="haunter_cry"> 
+            <source src="./sounds/haunter_cry.mp3" type="audio/mp3">
+        </audio>
+
+        <!-- Gengar appearance and sound effect -->
+
         <div id="mart" onmouseover="show('gengar')" onmouseout="hide('gengar')">
         <img id="gengar" src="./img/gengar_gif.gif" alt="gengar_gif">    
         </div>
+
+        <audio id="gengar_cry"> 
+            <source src="./sounds/gengar_cry.mp3" type="audio/mp3">
+        </audio>
 
 
     </div>
