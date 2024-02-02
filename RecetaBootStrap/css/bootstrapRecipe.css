@@ -1,0 +1,67 @@
+/******************************************************/
+/*         stylesheet for CookieRecipe.html           */
+/*         author: Antonio Cordero Molina             */
+/*         version: 1.0                               */
+/*         date: february 2024                        */
+/*         coment: class project                      */
+/******************************************************/
+
+/********************* COLOURS ************************/
+/*
+    wrapper: #f2d5c2;
+    titles: #4f3222;
+    list-items: #fadcd0
+*/
+
+
+/********************** FONTS *************************/
+@font-face {        
+    font-family: titles;
+    src: url(../fonts/Cookie.ttf);
+}
+@font-face {        
+    font-family: text;
+    src: url(../fonts/Louis\ George\ Cafe.ttf);
+}
+
+/********************** BODY *************************/
+
+body {
+    background-image: url(../img/cookie_bg.jpg);
+}
+
+#wrapper{
+    background-color: #4f3222;
+}
+
+.bg-dark-brown {
+    background-color: #d6a177;
+}
+
+h1, h3 {
+    font-family: titles;
+    color: #d6a177;
+}
+
+section {
+    font-family: text;
+    font-size: 1em;
+}
+
+blockquote, figcaption, cite {
+    font-family: text;
+    font-style: italic;
+    font-size: .85em;
+}
+
+.table-bordered {
+    border-color: #4f3222;
+}
+
+.list-group-item {
+    background-color: #d6a177;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
